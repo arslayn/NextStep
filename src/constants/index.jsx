@@ -1,7 +1,7 @@
 import { BotMessageSquare } from "lucide-react";
 import { PersonStanding } from "lucide-react";
 import { EyeOff } from "lucide-react";
-import { Smartphone  } from "lucide-react";
+import { Smartphone } from "lucide-react";
 import { BookOpenText } from "lucide-react";
 import { Cable } from "lucide-react";
 
@@ -11,6 +11,11 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
+
+export const gradItems = [
+  {label: "Highschool", href:"High"},
+  {label: "College students", href:"Uni"},
+];
 
 export const navItems = [
   { label: "Features", href: "featuresSection" },
@@ -78,7 +83,6 @@ export const features = [
       " Design with accessibility features like screen readers, high-contrast modes, and easy-to-navigate interfaces for users.",
   },
   {
-    
     icon: <BookOpenText />,
     text: "Parental Guidance",
     description:
@@ -114,39 +118,23 @@ export const checklistItems = [
     description:
       "Providing a set of roadmaps based on user's picked Stream and preferences.",
   },
-  
 ];
 
 export const pricingOptions = [
   {
     title: "Free",
     price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
+    features: ["Private board", "Private Mode"],
   },
   {
     title: "Pro",
     price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
+    features: ["Private board sharing", "Roadmaps", "Web Analytics"],
   },
   {
     title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+    price: "$20",
+    features: ["High Performance Network", "Private Mode"],
   },
 ];
 
