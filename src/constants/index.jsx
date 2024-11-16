@@ -13,15 +13,15 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const gradItems = [
-  {label: "Highschool", href:"High"},
-  {label: "College students", href:"Uni"},
+  { label: "Highschool", href: "High" },
+  { label: "College students", href: "Uni" },
 ];
 
 export const navItems = [
   { label: "Features", href: "featuresSection" },
   { label: "Workflow", href: "workflowSection" },
-  { label: "Pricing", href: "pricingSection" },
-  { label: "Testimonials", href: "reviewsSection" },
+  { label: "Roadmaps", href: "Roadmaps" },
+  { label: "Reviews", href: "reviewsSection" },
 ];
 
 export const Reviews = [

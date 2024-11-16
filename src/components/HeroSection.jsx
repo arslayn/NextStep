@@ -1,20 +1,4 @@
 const HeroSection = () => {
-  // Edited
-  // const onOpenModal = () => setOpen(true);
-  // const onCloseModal = () => setOpen(false);
-
-  // .map((item, index) => (
-  //   <li
-  //     key={index}
-  //     className="cursor-pointer"
-  //     onClick={() => {
-  //       scrollToSection(item.href);
-  //       console.log(item);
-  //     }}
-  //   >
-  //     {item.label}
-  //   </li>
-  // till here
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
@@ -32,7 +16,10 @@ const HeroSection = () => {
         career with expert advice tailored to your goals.
       </p>
       <div id="High" className="flex justify-center my-10">
-        <a className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
+        <a
+          href="http://127.0.0.1:5000/"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+        >
           For high school
         </a>
         <a id="Uni" className="py-3 px-4 mx-3 rounded-md border">
@@ -40,6 +27,27 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex mt-10 justify-center"></div>
+      <div className="flex flex-col items-center mt-11 max-w-7xl text-center text-neutral-500 space-y-6">
+        <p>
+          At NextStep, we believe that every student has unique potential, and
+          we are here to help you uncover it. Our well built website will be
+          guiding you through the choices and challenges you may face on your
+          educational journey.
+        </p>
+        <p>
+          Our services are going to cover a broad range of support areas, from
+          academic planning and test preparation to extracurricular activities
+          and personal development. Whether you're aiming for a specific career
+          path or simply exploring your interests, we're here to help you make
+          informed decisions.
+        </p>
+        <p>
+          With our comprehensive career roadmaps, future-personalized
+          counseling, and resources designed for students at different stages,
+          NextStep ensures that you are well-equipped to make choices that align
+          with your aspirations and values.
+        </p>
+      </div>
     </div>
   );
 };
